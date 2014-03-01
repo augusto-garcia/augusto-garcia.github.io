@@ -1,0 +1,12 @@
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
+
+name: Augusto Garcia
+url: http://about.me/augusto.garcia
+description: Statistical Geneticist
+twitter: aafgarci
+github: augusto-garcia
+gravatar_url: http://www.gravatar.com/avatar/869b62d421be7039fb94683342206b27.png
