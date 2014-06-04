@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>
-    {% if page.title %}
-      {{ page.title }} &ndash;
-    {% endif %}
-    {{ site.name }}
+    
+      Not Found &ndash;
+    
+    Augusto Garcia
   </title>
 
-  <meta name="author" content="{{ site.name }}" />
-  <meta name="description" content="{{ site.description }}" />
+  <meta name="author" content="Augusto Garcia" />
+  <meta name="description" content="Statistical Geneticist" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
   <link media="only screen and (max-device-width: 480px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
   <link media="only screen and (device-width: 768px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
-  <link href='http://fonts.googleapis.com/css?family=Maven+Pro|Alegreya' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
   <link rel="shortcut icon" href="favicon.ico" />
@@ -32,19 +32,19 @@
 <body>
   <section class="sidebar">
     <a href="/">
-      <img src="{{ site.gravatar_url }}?s=150" height="75" width="75" class="avatar" />
+      <img src="http://www.gravatar.com/avatar/869b62d421be7039fb94683342206b27.png?s=150" height="75" width="75" class="avatar" />
     </a>
 
     <section class="name">
       <a href="/">
-        <span id="fname">{{ site.name|split:' '|first }}</span>
-        <span id="lname">{{ site.name|split:' '|last }}</span>
+        <span id="fname">Augusto</span>
+        <span id="lname">Garcia</span>
       </a>
     </section>
 
     <section class="meta">
-      <a href="https://github.com/{{ site.github }}" target="_blank"><i class="icon icon-github"></i></a>
-      <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><i class="icon icon-twitter"></i></a>
+      <a href="https://github.com/augusto-garcia" target="_blank"><i class="icon icon-github"></i></a>
+      <a href="https://twitter.com/aafgarci" target="_blank"><i class="icon icon-twitter"></i></a>
       <a href="/atom.xml"><i class="icon icon-rss"></i></a>
     </section>
 
@@ -56,7 +56,12 @@
     </section>
   </section>
 
-  {{ content }}
+  <section class="content">
+  <h1>Not Found</h1>
+
+  <p>Sorry! Page not found.</p>
+</section>
+
 </body>
 
 </html>
