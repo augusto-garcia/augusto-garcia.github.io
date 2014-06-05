@@ -5,7 +5,9 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 a {
-  color: #227ce8; }
+    color: #003350; }
+a:hover {
+    color: #cc662f; }
 
 .sidebar {
   position: fixed;
@@ -39,7 +41,7 @@ a {
     margin-left: 0px;
     color: black; }
     .sidebar .meta a:hover {
-      color: #227ce8; }
+      color: #cc662f; }
   .sidebar .meta {
     margin-left: 4px; }
   .sidebar .meta .icon {
@@ -53,7 +55,7 @@ a {
       font-size: 12px;
       display: block; }
       .sidebar .sections a:hover {
-        color: #227ce8; }
+        color: #cc662f; }
     .sidebar .sections ul {
       margin: 0;
       padding: 0; }
@@ -71,7 +73,7 @@ a {
     font-family: "Alegreya", Helvetica, sans-serif;
     font-weight: 400; }
   .content h1 a {
-    color: #111;
+    color: #003350;
     text-decoration: none; }
   .content h2 {
     color: #333;
@@ -101,7 +103,7 @@ a {
     font-size: 30px;
     margin-bottom: 15px; }
   .content h3 {
-    color: #777;
+    color: #cc662f;
     font-size: 25px;
     padding-bottom: 5px;
     margin-bottom: 10px; }
